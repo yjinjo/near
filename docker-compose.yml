@@ -19,7 +19,7 @@ services:
       - DB_HOST=db
       - DB_NAME=devdb
       - DB_USER=devuser
-      - DB_PASS=${DB_PASSWORD}
+      - DB_PASS=changeme
     depends_on:
       - db
 
